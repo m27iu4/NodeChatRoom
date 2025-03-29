@@ -45,3 +45,37 @@ This app supports local login, GitHub authentication, and real-time chat using w
 ```bash
 git clone https://github.com/m27iu4/NodeChatRoom.git
 cd NodeChatRoom
+
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Set up environment variables:
+
+Create a .env file in the root folder:
+
+env
+Copy
+Edit
+PORT=3000
+SESSION_SECRET=yourSecretString
+MONGO_URI=yourMongoDbURI
+GITHUB_CLIENT_ID=yourGithubClientID
+GITHUB_CLIENT_SECRET=yourGithubClientSecret
+Start the app:
+
+bash
+Copy
+Edit
+npm start
+Visit http://localhost:3000 in your browser.
+
+🧪 Testing
+This project includes tests provided by freeCodeCamp for certification. Make sure all tests pass by running the FCC test suite.
+
+📚 Credits
+Created as part of the freeCodeCamp Advanced Node and Express Projects.
+
+
